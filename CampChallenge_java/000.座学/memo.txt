@@ -1,0 +1,6 @@
+パソコンのスペック
+
+OS   - OS X El Capitan バージョン10.11.6
+CPU  - プロセッサ1.2GHz intel Core m5
+メモリ - 8GB 1867MHz LPDDR3
+ハードディスク - Intel HD Graphics 515 1536 MB
