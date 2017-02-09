@@ -1,5 +1,5 @@
 <%-- 
-    Document   : jsp2-3
+    Document   : jsp2-3　引数１
     Created on : 2017/02/09, 15:00:38
     Author     : i_am_kaede
 --%>
@@ -18,23 +18,22 @@
 //適当な数値に対して奇数・偶数の判別を行ってください
             
 
-                String i(int a){
-                     int x = a;
+
+//String iのStringは、戻ってきた時の型が何がいいか。
+//言葉で戻したいからString
+
+                String i(int x){
+                            
                      if(x%2==0){
                 
-                         return "奇数です";
+                         return "偶数";
                       } else{
                             
-                         return "偶数です";
+                         return "奇数";
                             
                       }       
                 }   
-                 
-                   
-                  
-                     
-                     
-             
+
               %>
               
               
@@ -42,24 +41,14 @@
               <%//ユーザー定義したのを、このメインメソッドで呼び出し
                 
                   Integer num = 5;
-                  
-                  
-                /*String k = kisuu();
-                String g = gusuu();*/
+
                   
                   out.print(num + "は" +i(num)+ "です");
                   
-                  
-                  //String name = getMyName();
-                  
-                  //out.print(name+"a");
+
+//最初のnumは、５と表示される。　次のi(num)は、戻ってきた値で表示される。
+//i(num)はユーザーメソッドで、Stringを指定してるのでString型で返ってくる。
                   %>
-
-
-
-
-
-
-                
+                  
     </body>
 </html>
