@@ -19,12 +19,12 @@
 // 以下の入力フィールドを持ったHTMLを、Javaで処理する想定で記述してください。
 //・名前（テキストボックス）、性別（ラジオボタン）、趣味（複数行テキストボックス）%>
 
-        <form action="./sample.jsp" method="post">
+        <form action="./date2.jsp" method="post">
             名前：<input type ="text" name="txtName"><br>
             
             性別：
-            男<input type ="radio" name="rdoSample">
-            女<input type ="radio" name="rdoSample"><br>
+            男<input type ="radio" name="rdoSample" value=0>
+            女<input type ="radio" name="rdoSample" value=1><br>
             
             趣味：
             <textarea name="mulText"></textarea>
